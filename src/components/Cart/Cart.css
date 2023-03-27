@@ -1,0 +1,15 @@
+.cart {
+  background: rgba(255, 153, 0, 0.3);
+  position: sticky;
+  top: 0;
+}
+.cart p {
+  margin-top: 25px;
+}
+.cart h6 {
+  margin-top: 25px;
+  font-size: 21px;
+}
+.cart h5 {
+  font-size: 21px;
+}
