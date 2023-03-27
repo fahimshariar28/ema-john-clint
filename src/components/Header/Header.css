@@ -1,0 +1,20 @@
+nav {
+  height: 80px;
+  background-color: #1c2b35;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.005em;
+  margin-left: 32px;
+}
+nav a:hover {
+  color: orange;
+}
