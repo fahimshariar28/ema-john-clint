@@ -44,6 +44,11 @@ const Shop = () => {
     addToDb(product.id);
   };
 
+  const handleClearCart = () => {
+    setCart([]);
+    deleteShoppingCart();
+  };
+
   return (
     <div className="shop-container">
       <div className="products-container">
@@ -56,7 +61,7 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart handleClearCart={handleClearCart} cart={cart}></Cart>
       </div>
     </div>
   );

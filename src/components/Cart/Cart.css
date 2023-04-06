@@ -13,3 +13,17 @@
 .cart h5 {
   font-size: 21px;
 }
+.btn-clear-cart {
+  width: 90%;
+  height: 30px;
+  padding: 10px;
+  color: white;
+  font-size: 21px;
+  margin: 10px auto;
+  background-color: #ff3030;
+  border: 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
