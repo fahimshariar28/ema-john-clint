@@ -3,9 +3,9 @@ import {
   addToDb,
   deleteShoppingCart,
   getShoppingCart,
-} from "../../../utilities/fakedb";
-import Cart from "../../Cart/Cart";
-import Product from "../../Product/Product";
+} from "../../utilities/fakedb";
+import Cart from "../Cart/Cart";
+import Product from "../Product/Product";
 import "./Shop.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
