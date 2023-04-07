@@ -11,3 +11,22 @@
 .cart-container {
   text-align: center;
 }
+.proceed-link {
+  text-decoration: none;
+}
+.btn-proceed {
+  background: #ff9900;
+  border: 0;
+  border-radius: 4px;
+  width: 90%;
+  height: 30px;
+  padding: 10px;
+  color: white;
+  font-size: 21px;
+  margin: 10px auto;
+  border: 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
