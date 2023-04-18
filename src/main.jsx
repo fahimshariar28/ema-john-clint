@@ -7,7 +7,7 @@ import Shop from "./components/Shop/Shop";
 import Home from "./components/Layout/Home";
 import Order from "./components/Order/Order";
 import Inventory from "./components/Inventory/Inventory";
-import Login from "./components/Inventory/Login/Login";
+import Login from "./components/Login/Login";
 import cartProductsLoader from "./loaders/cartProductsLoader";
 import Checkout from "./components/Checkout/Checkout";
 
