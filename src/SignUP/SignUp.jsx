@@ -6,6 +6,7 @@ import { AuthContext } from "../components/Providers/AuthProvider";
 const SignUp = () => {
   const [error, setError] = useState("");
   const { createUser } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const handelSignUp = (event) => {
     event.preventDefault();
@@ -25,6 +26,8 @@ const SignUp = () => {
       .then((result) => {
         const loggedUser = result.user;
         console.log(loggedUser);
+        form.reset();
+        navigate(from, { replace: true });
       })
       .catch((error) => {
         console.log(error);
