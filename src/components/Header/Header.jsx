@@ -20,8 +20,8 @@ const Header = () => {
         <Link to="/">Shop</Link>
         <Link to="/order">Order</Link>
         <Link to="/inventory">Inventory</Link>
-        <Link to="/login">Login</Link>
-        <Link to="/signup">Sign Up</Link>
+        {!user && <Link to="/login">Login</Link>}
+        {!user && <Link to="/signup">Sign Up</Link>}
         {user && (
           <span className="text-white">
             Welcome{user.email} <button onClick={handleLogout}>Log out</button>
