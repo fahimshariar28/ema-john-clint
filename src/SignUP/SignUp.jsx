@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import "./SignUp.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../components/Providers/AuthProvider";
 
 const SignUp = () => {
