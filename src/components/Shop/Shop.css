@@ -31,3 +31,17 @@
   align-items: center;
   cursor: pointer;
 }
+.pagination {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.pagination button {
+  cursor: pointer;
+  margin-left: 5px;
+  padding: 10px;
+  border: 0;
+  border-radius: 10px;
+}
+.select {
+  background: orange;
+}
