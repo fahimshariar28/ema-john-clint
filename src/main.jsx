@@ -22,7 +22,8 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Shop></Shop>,
-        loader: () => fetch("http://localhost:5000/totalProducts"),
+        loader: () =>
+          fetch("https://ema-john-server-five.vercel.app/totalProducts"),
       },
       {
         path: "/order",

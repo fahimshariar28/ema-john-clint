@@ -25,7 +25,7 @@ const Shop = () => {
   useEffect(() => {
     async function fetchData() {
       const response = await fetch(
-        `http://localhost:5000/products?page=${currentPage}&limit=${itemsPerPage}`
+        `https://ema-john-server-five.vercel.app/products?page=${currentPage}&limit=${itemsPerPage}`
       );
 
       const data = await response.json();
@@ -37,7 +37,7 @@ const Shop = () => {
   useEffect(() => {
     const storedCart = getShoppingCart();
     const ids = Object.keys(storedCart);
-    fetch("http://localhost:5000/productsByIds", {
+    fetch("https://ema-john-server-five.vercel.app/productsByIds", {
       method: "POST",
       headers: {
         "content-type": "application/json",
